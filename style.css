@@ -756,6 +756,14 @@ footer p {
         z-index: 2;
     }
 
+    nav {
+        height: 60px;
+    }
+
+    .contact-email {
+        font-size: 0.9em;
+    }
+
     .whatsapp-absolute {
         right: 30px;
         bottom: 30px;
