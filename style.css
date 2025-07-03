@@ -5,6 +5,35 @@
     src: url(F/Aerospace.ttf);
 }
 
+.text-container {
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.word-list {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.word {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 @font-face {
     font-family: GT;
     src: url(F/GreaterTheory.otf);
@@ -289,7 +318,11 @@ nav.scrolled {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
+    background-color: #ffffffa9;
+    overflow: hidden;
+
 }
+
 
 .hero-title {
     font-family: "Raleway", Raleway;
@@ -419,6 +452,7 @@ nav.scrolled {
         transform: translateX(-50%) translateY(0);
     }
 }
+
 
 /* About Section */
 .about {
@@ -756,20 +790,32 @@ footer p {
         z-index: 2;
     }
 
-    nav {
-        height: 60px;
+    .text-container {
+        display: flex;
+        justify-content: center;
     }
 
-    .contact-email {
+    .word-list {
+        text-align: center;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .word {
+        text-align: center;
+        width: fit-content;
         font-size: 0.9em;
     }
 
     .whatsapp-absolute {
-        right: 30px;
-        bottom: 30px;
+        right: 0px;
+        bottom: 20px;
+
         display: inline-block;
 
-        img {
+        svg {
             height: 50px;
         }
     }
@@ -777,11 +823,19 @@ footer p {
     .phone-absolute {
         left: 30px;
         bottom: 30px;
-        display: inline-block;
+        display: none;
 
         img {
             height: 50px;
         }
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    .contact-email {
+        font-size: 0.9em;
     }
 
     #WhatsApp-img {
@@ -791,6 +845,7 @@ footer p {
 
     .hero {
         .container {
+            transform: translateY(40px);
             .image {
                 display: none;
             }
@@ -799,7 +854,7 @@ footer p {
 
     .hero-content {
         text-align: center;
-        margin-top: 0;
+        margin-top: 30px;
     }
 
     .nav-menu {
@@ -839,8 +894,10 @@ footer p {
     .section-title {
         img {
             display: inline-block;
-            border-radius: 5px;
+            border-radius: 10px;
             margin-bottom: 20px;
+            height: 300px;
+            box-shadow: 0 0 18px 1px #00d5ff1c;
         }
     }
 }
