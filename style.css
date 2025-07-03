@@ -32,6 +32,7 @@
   font-family: "Raleway";
   text-transform: uppercase;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 @font-face {
