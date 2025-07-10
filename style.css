@@ -577,6 +577,11 @@ nav.scrolled {
     position: relative;
     overflow: hidden;
     border-radius: 12px 12px 0 0;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
 .project-image img {
@@ -607,11 +612,6 @@ nav.scrolled {
     font-size: 18px;
     font-weight: 600;
     border-radius: 12px 12px 0 0;
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
 }
 
 .project-card:hover .project-overlay {
