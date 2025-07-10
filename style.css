@@ -245,7 +245,7 @@ nav.scrolled {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,7 +257,7 @@ nav.scrolled {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 50px;
 
         .image {
 
@@ -577,11 +577,6 @@ nav.scrolled {
     position: relative;
     overflow: hidden;
     border-radius: 12px 12px 0 0;
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
 }
 
 .project-image img {
@@ -612,6 +607,11 @@ nav.scrolled {
     font-size: 18px;
     font-weight: 600;
     border-radius: 12px 12px 0 0;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
 .project-card:hover .project-overlay {
@@ -850,7 +850,6 @@ footer p {
 
 
     .hero {
-       min-height: 140vh;
         .container {
             transform: translateY(40px);
             .image {
