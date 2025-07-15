@@ -245,7 +245,7 @@ nav.scrolled {
 
 /* Hero Section */
 .hero {
-    min-height: 110vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
