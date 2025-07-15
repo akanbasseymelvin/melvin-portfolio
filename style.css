@@ -245,7 +245,7 @@ nav.scrolled {
 
 /* Hero Section */
 .hero {
-    min-height: 140vh;
+    min-height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -851,6 +851,7 @@ footer p {
 
 
     .hero {
+        height: 140vh;
         .container {
             transform: translateY(40px);
             .image {
