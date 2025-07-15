@@ -245,7 +245,7 @@ nav.scrolled {
 
 /* Hero Section */
 .hero {
-    min-height: 110vh;
+    min-height: 140vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,6 +331,7 @@ nav.scrolled {
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 1.1;
+    white-space: nowrap;
     background: linear-gradient(135deg, #ffffff 0%, #00d4ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
